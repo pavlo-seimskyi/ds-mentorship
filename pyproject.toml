@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ds-mentorship"
+version = "0.1.0"
+description = "Notebooks with practical exercises learnt in the DS mentorship sessions at Glovo."
+authors = ["Pavlo Seimskyi <62653730+pavlo-seimskyi@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sklearn = "^0.0"
+pandas = "^1.4.3"
+numpy = "^1.23.1"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+statsmodels = "^0.13.2"
+lightgbm = "^3.3.2"
+xgboost = "^1.6.1"
+plotly = "^5.9.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+ipykernel = "^6.15.1"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
