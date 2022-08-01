@@ -1,0 +1,13 @@
+# Virtual environment created by poetry
+.venv
+
+.idea
+
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore __pycache__ folders
+__pycache__/
